@@ -40,7 +40,7 @@ import java.io.*;
 import java.util.*;
 
 @SpringBootApplication
-@ComponentScan(basePackages = {"ai.aitia"}) //TODO: add custom packages if any
+@ComponentScan(basePackages = {CommonConstants.BASE_PACKAGE,"ai.aitia"}) //TODO: add custom packages if any
 public class ConsumerMain implements ApplicationRunner {
 
 	//=================================================================================================
