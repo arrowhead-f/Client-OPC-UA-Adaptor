@@ -20,7 +20,7 @@ import eu.arrowhead.common.CommonConstants;
 import org.springframework.context.event.EventListener;
 
 @SpringBootApplication
-@ComponentScan(basePackages = {"ai.aitia"}) //TODO: add custom packages if any
+@ComponentScan(basePackages = {CommonConstants.BASE_PACKAGE,"ai.aitia"}) //TODO: add custom packages if any
 public class ProviderMain {
 
 	//=================================================================================================
