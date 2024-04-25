@@ -22,7 +22,7 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.List;
 
-@CrossOrigin(maxAge = Defaults.CORS_MAX_AGE, allowCredentials = Defaults.CORS_ALLOW_CREDENTIALS,
+@CrossOrigin(originPatterns = { "*" }, maxAge = Defaults.CORS_MAX_AGE, allowCredentials = Defaults.CORS_ALLOW_CREDENTIALS,
 		allowedHeaders = { HttpHeaders.ORIGIN, HttpHeaders.CONTENT_TYPE, HttpHeaders.ACCEPT, HttpHeaders.AUTHORIZATION }
 )
 
